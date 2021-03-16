@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up | Meeting Scheduler</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Meeting Scheduler</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homeblack" href="login.html">Login</a></li>
+				<li><a class="homered" href="signUp.html">Sign Up</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="assets/admin.png" class="avatar">
+        <h1>SignUp Here</h1>
+        <form action="signupProcess.php" method="POST">
+            <p>Name</p>
+			<input type="text" name="Name" placeholder="Enter Your Name" required="required">
+			<p>Email</p>
+			<input type="text" name="mailId" placeholder="Enter Your Email" required="required">
+			<p>User Name</p>
+			<input type="text" name="userName" placeholder="Enter Your User Name" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Sign Up">
+           
+        </form>
+        
+    </div>
+</body> 
+</html>
